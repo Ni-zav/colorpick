@@ -45,6 +45,21 @@ const About: React.FC = () => {
           </p>
         </section>
 
+        <section className="space-y-4">
+          <h2 className="text-xl font-medium inverted-heading">Open Source</h2>
+          <p className="text-muted-foreground leading-relaxed">
+            ColorPick is an open source project that I built while learning web development. 
+            If you're interested, you can check out the <a 
+              href="https://github.com/Ni-zav/colorpick" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >GitHub repository</a>. I'm still learning and would be grateful for any feedback, 
+            suggestions, or contributions that could help improve this project. Every small 
+            contribution helps make this tool better for everyone.
+          </p>
+        </section>
+
         <section className="space-y-4 pt-6">
           <h2 className="text-xl font-medium inverted-heading">Support</h2>
           <div className="flex flex-col items-start gap-3">
