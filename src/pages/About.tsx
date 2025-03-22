@@ -22,6 +22,7 @@ const About: React.FC = () => {
             ColorPick is a modern color palette generator designed to help developers and designers
             find the perfect color combinations for their projects. With support for both light
             and dark themes, it provides an intuitive way to visualize and implement color schemes.
+            New color palettes and combinations are being added occasionally to keep the collection fresh and inspiring.
           </p>
         </section>
 
@@ -53,7 +54,7 @@ const About: React.FC = () => {
               href="https://github.com/Ni-zav/colorpick" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-primary hover:underline"
+              className="font-medium text-foreground underline underline-offset-4 hover:text-muted-foreground transition-colors"
             >GitHub repository</a>. I'm still learning and would be grateful for any feedback, 
             suggestions, or contributions that could help improve this project. Every small 
             contribution helps make this tool better for everyone.
