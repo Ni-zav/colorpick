@@ -23,7 +23,7 @@ This project is built with modern web technologies:
 
 1. Clone the repository
 ```sh
-git clone <repository-url>
+git clone https://github.com/Ni-zav/colorpick.git
 cd color-picker
 ```
 
