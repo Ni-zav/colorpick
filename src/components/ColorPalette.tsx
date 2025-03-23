@@ -1,4 +1,3 @@
-
 import React from "react";
 import { cn } from "@/lib/utils";
 import { Palette } from "@/lib/palettes";
@@ -29,12 +28,12 @@ const ColorPalette: React.FC<ColorPaletteProps> = ({
       onClick={onClick}
     >
       <CardContent className={cn("relative", compact ? "p-2" : "p-4")}>
-        <div className="flex flex-col space-y-2">
-          <div className={cn("flex gap-1", compact ? "h-8" : "h-16")}>
+        <div className="flex flex-col space-y-2.5">
+          <div className={cn("flex overflow-hidden rounded-sm", compact ? "h-8" : "h-24")}>
             {palette.colors.map((color, index) => (
               <div
                 key={index}
-                className="flex-1 relative rounded-md overflow-hidden border border-black/5"
+                className="flex-1 relative border-r last:border-r-0 border-black/5"
                 style={{ backgroundColor: color.hex }}
               >
                 {isSelected && index === 0 && (
@@ -47,7 +46,7 @@ const ColorPalette: React.FC<ColorPaletteProps> = ({
           </div>
           <div className="space-y-0.5">
             <h3 className={cn(
-              "font-medium group-hover:text-primary transition-colors duration-300",
+              "font-medium text-muted-foreground/90 group-hover:text-foreground/90 transition-colors duration-300",
               compact ? "text-xs" : "text-sm"
             )}>
               {palette.name}
