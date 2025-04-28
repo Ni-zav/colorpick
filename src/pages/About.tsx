@@ -69,16 +69,16 @@ const About: React.FC = () => {
               you can buy me a coffee. Any support is deeply appreciated but entirely optional.
             </p>
             <a 
-              href="" 
+              href="https://ko-fi.com/nizav" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <Button 
-                variant="outline" 
-                className="flex items-center gap-2 hover:bg-accent/10"
+              variant="outline" 
+              className="flex items-center gap-2 hover:bg-accent/10"
               >
-                <Coffee className="h-4 w-4" />
-                <span>Buy me a coffee</span>
+              <Coffee className="h-4 w-4" />
+              <span>Buy me a coffee</span>
               </Button>
             </a>
           </div>
