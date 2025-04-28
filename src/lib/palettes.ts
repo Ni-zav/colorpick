@@ -1689,6 +1689,206 @@ export const palettes: Palette[] = [
       { name: "Secondary", hex: "#FFE6F0" },
       { name: "Accent", hex: "#FF4D94" }
     ]
+  },
+    // Bio-Inspired Palettes
+  {
+    id: "chlorophyll",
+    name: "Chlorophyll",
+    description: "Plant photosynthesis colors.",
+    category: "Bio-Inspired",
+    colors: [
+      { name: "Background", hex: "#F0F7E6" },
+      { name: "Foreground", hex: "#1E3F20" },
+      { name: "Primary", hex: "#4CAF50" },
+      { name: "Secondary", hex: "#E8F5E9" },
+      { name: "Accent", hex: "#81C784" }
+    ]
+  },
+  {
+    id: "butterfly-wing",
+    name: "Butterfly Wing",
+    description: "Iridescent wing pattern colors.",
+    category: "Bio-Inspired",
+    colors: [
+      { name: "Background", hex: "#2A0845" },
+      { name: "Foreground", hex: "#FFE5FF" },
+      { name: "Primary", hex: "#6B48FF" },
+      { name: "Secondary", hex: "#3B0C59" },
+      { name: "Accent", hex: "#23F0C7" }
+    ]
+  },
+
+  // Chemical Elements
+  {
+    id: "copper-oxide",
+    name: "Copper Oxide",
+    description: "Metal patina formation.",
+    category: "Elements",
+    colors: [
+      { name: "Background", hex: "#004D40" },
+      { name: "Foreground", hex: "#B2DFDB" },
+      { name: "Primary", hex: "#00897B" },
+      { name: "Secondary", hex: "#004D40" },
+      { name: "Accent", hex: "#1DE9B6" }
+    ]
+  },
+  {
+    id: "noble-gases",
+    name: "Noble Gases",
+    description: "Neon light emission colors.",
+    category: "Elements",
+    colors: [
+      { name: "Background", hex: "#000000" },
+      { name: "Foreground", hex: "#FF1744" },
+      { name: "Primary", hex: "#D500F9" },
+      { name: "Secondary", hex: "#0D0D0D" },
+      { name: "Accent", hex: "#00E5FF" }
+    ]
+  },
+
+  // Urban Landscapes
+  {
+    id: "neon-city",
+    name: "Neon City",
+    description: "Cyberpunk urban lighting.",
+    category: "Urban",
+    colors: [
+      { name: "Background", hex: "#1A1A2E" },
+      { name: "Foreground", hex: "#E94BE8" },
+      { name: "Primary", hex: "#00FF9F" },
+      { name: "Secondary", hex: "#2E2E4A" },
+      { name: "Accent", hex: "#FB5012" }
+    ]
+  },
+  {
+    id: "nordic-winter",
+    name: "Nordic Winter",
+    description: "Scandinavian winter landscape colors.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#F0F5F9" },
+      { name: "Foreground", hex: "#2E3440" },
+      { name: "Primary", hex: "#81A1C1" },
+      { name: "Secondary", hex: "#E5E9F0" },
+      { name: "Accent", hex: "#5E81AC" }
+    ]
+  },
+  {
+    id: "moroccan-spice",
+    name: "Moroccan Spice",
+    description: "Vibrant colors of a Marrakech market.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FDF2E9" },
+      { name: "Foreground", hex: "#642B1C" },
+      { name: "Primary", hex: "#D35400" },
+      { name: "Secondary", hex: "#FAE5D3" },
+      { name: "Accent", hex: "#F1C40F" }
+    ]
+  },
+  {
+    id: "zen-garden",
+    name: "Zen Garden",
+    description: "Traditional Japanese garden aesthetics.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#F4F1EA" },
+      { name: "Foreground", hex: "#2D2A24" },
+      { name: "Primary", hex: "#8E7F6D" },
+      { name: "Secondary", hex: "#EBE7E0" },
+      { name: "Accent", hex: "#687F67" }
+    ]
+  },
+  {
+    id: "indian-festival",
+    name: "Indian Festival",
+    description: "Colors of Holi celebration.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FFF9C4" },
+      { name: "Foreground", hex: "#4A148C" },
+      { name: "Primary", hex: "#FF4081" },
+      { name: "Secondary", hex: "#FFF176" },
+      { name: "Accent", hex: "#00BCD4" }
+    ]
+  },
+  {
+    id: "mexican-fiesta",
+    name: "Mexican Fiesta",
+    description: "Vibrant Mexican celebration colors.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FFFFFF" },
+      { name: "Foreground", hex: "#2C1810" },
+      { name: "Primary", hex: "#FF1744" },
+      { name: "Secondary", hex: "#FFF9C4" },
+      { name: "Accent", hex: "#00C853" }
+    ]
+  },
+  {
+    id: "persian-nights",
+    name: "Persian Nights",
+    description: "Rich colors of Persian architecture.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#1A237E" },
+      { name: "Foreground", hex: "#FFD700" },
+      { name: "Primary", hex: "#7C4DFF" },
+      { name: "Secondary", hex: "#283593" },
+      { name: "Accent", hex: "#00BFA5" }
+    ]
+  },
+  {
+    id: "celtic-mist",
+    name: "Celtic Mist",
+    description: "Irish countryside palette.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#E8F5E9" },
+      { name: "Foreground", hex: "#1B5E20" },
+      { name: "Primary", hex: "#43A047" },
+      { name: "Secondary", hex: "#C8E6C9" },
+      { name: "Accent", hex: "#FFD700" }
+    ]
+  },
+  {
+    id: "african-sunset",
+    name: "African Sunset",
+    description: "Serengeti evening colors.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FFE0B2" },
+      { name: "Foreground", hex: "#3E2723" },
+      { name: "Primary", hex: "#FF5722" },
+      { name: "Secondary", hex: "#FFF3E0" },
+      { name: "Accent", hex: "#8D6E63" }
+    ]
+  },
+  {
+    id: "greek-islands",
+    name: "Greek Islands",
+    description: "Aegean Sea and architecture.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FFFFFF" },
+      { name: "Foreground", hex: "#1A237E" },
+      { name: "Primary", hex: "#03A9F4" },
+      { name: "Secondary", hex: "#F5F5F5" },
+      { name: "Accent", hex: "#B3E5FC" }
+    ]
+  },
+  {
+    id: "russian-imperial",
+    name: "Russian Imperial",
+    description: "Opulent Russian palace colors.",
+    category: "Cultural",
+    colors: [
+      { name: "Background", hex: "#FFFFFF" },
+      { name: "Foreground", hex: "#1A237E" },
+      { name: "Primary", hex: "#D4AF37" },
+      { name: "Secondary", hex: "#F5F5F5" },
+      { name: "Accent", hex: "#B71C1C" }
+    ]
   }
 ];
 
